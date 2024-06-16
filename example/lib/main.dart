@@ -42,21 +42,6 @@ class _MyHomePageState extends State<MyHomePage> {
   final currenxcontroller = Get.find<CurrencyController>();
   final converterController = Get.find<ConverterController>();
 
-  /// You can also get the current country of the user by calling [getCountryFromPosition].
-  /// This takes the current position of the user. To have user's current position, just call [localize]
-  /// Now, you need to call [currenxcontroller.currencyCode] and provide to it, the country name.
-  /// From there, you are able to convert your source money with [converterController.convertCurrency]
-  /// 
-  /// Example:
-  /// localize().then((position){
-  ///   getCountryFromPosition(position).then((country){
-  ///     currenxcontroller.currencyCode(country).then((toCurrency){
-  ///       converterController.convertCurrency(fromCurrency,toCurrency,amount).then((newAmount){
-  ///         print("New amount: $newAmount");
-  ///       });
-  ///     });
-  ///   });
-  /// });
 
   @override
   Widget build(BuildContext context) {
