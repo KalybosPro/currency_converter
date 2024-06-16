@@ -11,22 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-/// You can also get the current country of the user by calling [getCountryFromPosition].
-  /// This takes the current position of the user. To have user's current position, just call [localize]
-  /// Now, you need to call [currenxcontroller.currencyCode] and provide to it, the country name.
-  /// From there, you are able to convert your source money with [converterController.convertCurrency]
-  /// 
-  /// Example:
-  /// localize().then((position){
-  ///   getCountryFromPosition(position).then((country){
-  ///     currenxcontroller.currencyCode(country).then((toCurrency){
-  ///       converterController.convertCurrency(fromCurrency,toCurrency,amount).then((newAmount){
-  ///         print("New amount: $newAmount");
-  ///       });
-  ///     });
-  ///   });
-  /// });
-
 TODO: Put a short description of the package here that helps potential users
 know whether this package might be useful for them.
 
@@ -46,7 +30,7 @@ This takes the current position of the user. To have user's current position, ju
 Now, you need to call [currenxcontroller.currencyCode] and provide to it, the country name.
 From there, you are able to convert your source money with [converterController.convertCurrency]
 
-# Example
+### Example
 
 ```dart
 
